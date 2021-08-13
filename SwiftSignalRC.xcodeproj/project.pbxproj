@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1841E85F268C57FB0008888E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1841E85E268C57FB0008888E /* AppDelegate.m */; };
+		1841E862268C57FB0008888E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1841E861268C57FB0008888E /* SceneDelegate.m */; };
+		1841E865268C57FB0008888E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1841E864268C57FB0008888E /* ViewController.m */; };
+		1841E868268C57FB0008888E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1841E866268C57FB0008888E /* Main.storyboard */; };
+		1841E86A268C58260008888E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1841E869268C58260008888E /* Assets.xcassets */; };
+		1841E86D268C58260008888E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1841E86B268C58260008888E /* LaunchScreen.storyboard */; };
+		1841E870268C58260008888E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1841E86F268C58260008888E /* main.m */; };
+		1841E89B268D50A60008888E /* SignalRClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1841E89A268D50A50008888E /* SignalRClient.swift */; };
+		4D6DC1BAD3FE4368FCA8CDEE /* Pods_SwiftSignalRC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913CD1E7FAFAA16476DB6617 /* Pods_SwiftSignalRC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1841E85A268C57FB0008888E /* SwiftSignalRC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSignalRC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1841E85D268C57FB0008888E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1841E85E268C57FB0008888E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1841E860268C57FB0008888E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		1841E861268C57FB0008888E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		1841E863268C57FB0008888E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1841E864268C57FB0008888E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1841E867268C57FB0008888E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1841E869268C58260008888E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1841E86C268C58260008888E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1841E86E268C58260008888E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1841E86F268C58260008888E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1841E899268D50A40008888E /* SwiftSignalRC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftSignalRC-Bridging-Header.h"; sourceTree = "<group>"; };
+		1841E89A268D50A50008888E /* SignalRClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalRClient.swift; sourceTree = "<group>"; };
+		25AD8DAEC5D88C076ED7E6B6 /* Pods-SwiftSignalRC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSignalRC.release.xcconfig"; path = "Target Support Files/Pods-SwiftSignalRC/Pods-SwiftSignalRC.release.xcconfig"; sourceTree = "<group>"; };
+		2F6855DDA06D625850BD07F9 /* Pods-SwiftSignalRC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSignalRC.debug.xcconfig"; path = "Target Support Files/Pods-SwiftSignalRC/Pods-SwiftSignalRC.debug.xcconfig"; sourceTree = "<group>"; };
+		913CD1E7FAFAA16476DB6617 /* Pods_SwiftSignalRC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftSignalRC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1841E857268C57FB0008888E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6DC1BAD3FE4368FCA8CDEE /* Pods_SwiftSignalRC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1841E851268C57FA0008888E = {
+			isa = PBXGroup;
+			children = (
+				1841E85C268C57FB0008888E /* SwiftSignalRC */,
+				1841E85B268C57FB0008888E /* Products */,
+				83F15815EEA3EC435DB0190A /* Pods */,
+				287DF1FA3A1A26D71B6ABFFF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1841E85B268C57FB0008888E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1841E85A268C57FB0008888E /* SwiftSignalRC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1841E85C268C57FB0008888E /* SwiftSignalRC */ = {
+			isa = PBXGroup;
+			children = (
+				1841E85D268C57FB0008888E /* AppDelegate.h */,
+				1841E85E268C57FB0008888E /* AppDelegate.m */,
+				1841E860268C57FB0008888E /* SceneDelegate.h */,
+				1841E861268C57FB0008888E /* SceneDelegate.m */,
+				1841E863268C57FB0008888E /* ViewController.h */,
+				1841E864268C57FB0008888E /* ViewController.m */,
+				1841E89A268D50A50008888E /* SignalRClient.swift */,
+				1841E899268D50A40008888E /* SwiftSignalRC-Bridging-Header.h */,
+				1841E866268C57FB0008888E /* Main.storyboard */,
+				1841E869268C58260008888E /* Assets.xcassets */,
+				1841E86B268C58260008888E /* LaunchScreen.storyboard */,
+				1841E86E268C58260008888E /* Info.plist */,
+				1841E86F268C58260008888E /* main.m */,
+			);
+			path = SwiftSignalRC;
+			sourceTree = "<group>";
+		};
+		287DF1FA3A1A26D71B6ABFFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				913CD1E7FAFAA16476DB6617 /* Pods_SwiftSignalRC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83F15815EEA3EC435DB0190A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F6855DDA06D625850BD07F9 /* Pods-SwiftSignalRC.debug.xcconfig */,
+				25AD8DAEC5D88C076ED7E6B6 /* Pods-SwiftSignalRC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1841E859268C57FB0008888E /* SwiftSignalRC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1841E873268C58260008888E /* Build configuration list for PBXNativeTarget "SwiftSignalRC" */;
+			buildPhases = (
+				8D6DFF35A36077685A08320D /* [CP] Check Pods Manifest.lock */,
+				1841E856268C57FB0008888E /* Sources */,
+				1841E857268C57FB0008888E /* Frameworks */,
+				1841E858268C57FB0008888E /* Resources */,
+				519C0FE91837EFD8E6B9EFEF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSignalRC;
+			productName = SwiftSignalRC;
+			productReference = 1841E85A268C57FB0008888E /* SwiftSignalRC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1841E852268C57FA0008888E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1841E859268C57FB0008888E = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = 1841E855268C57FA0008888E /* Build configuration list for PBXProject "SwiftSignalRC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1841E851268C57FA0008888E;
+			productRefGroup = 1841E85B268C57FB0008888E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1841E859268C57FB0008888E /* SwiftSignalRC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1841E858268C57FB0008888E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1841E86D268C58260008888E /* LaunchScreen.storyboard in Resources */,
+				1841E86A268C58260008888E /* Assets.xcassets in Resources */,
+				1841E868268C57FB0008888E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		519C0FE91837EFD8E6B9EFEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftSignalRC/Pods-SwiftSignalRC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftSignalRC/Pods-SwiftSignalRC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftSignalRC/Pods-SwiftSignalRC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D6DFF35A36077685A08320D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftSignalRC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1841E856268C57FB0008888E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1841E865268C57FB0008888E /* ViewController.m in Sources */,
+				1841E89B268D50A60008888E /* SignalRClient.swift in Sources */,
+				1841E85F268C57FB0008888E /* AppDelegate.m in Sources */,
+				1841E870268C58260008888E /* main.m in Sources */,
+				1841E862268C57FB0008888E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1841E866268C57FB0008888E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1841E867268C57FB0008888E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1841E86B268C58260008888E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1841E86C268C58260008888E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1841E871268C58260008888E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1841E872268C58260008888E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1841E874268C58260008888E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F6855DDA06D625850BD07F9 /* Pods-SwiftSignalRC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPRH7J87J7;
+				INFOPLIST_FILE = SwiftSignalRC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lichunfei.SwiftSignalRC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftSignalRC/SwiftSignalRC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1841E875268C58260008888E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25AD8DAEC5D88C076ED7E6B6 /* Pods-SwiftSignalRC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MPRH7J87J7;
+				INFOPLIST_FILE = SwiftSignalRC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lichunfei.SwiftSignalRC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftSignalRC/SwiftSignalRC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1841E855268C57FA0008888E /* Build configuration list for PBXProject "SwiftSignalRC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1841E871268C58260008888E /* Debug */,
+				1841E872268C58260008888E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1841E873268C58260008888E /* Build configuration list for PBXNativeTarget "SwiftSignalRC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1841E874268C58260008888E /* Debug */,
+				1841E875268C58260008888E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1841E852268C57FA0008888E /* Project object */;
+}
